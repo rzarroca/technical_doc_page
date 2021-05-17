@@ -10,7 +10,7 @@
     /* font variables*/
 
     --ratio: 1.333;
-    --normal: 14px;
+    --normal: 16px;
     --medium: calc(var(--normal) * var(--ratio));
     --big: calc(var(--normal) * 2 * var(--ratio));
 }
