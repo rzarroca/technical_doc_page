@@ -1,0 +1,59 @@
+@font-face {
+    font-family: 'Asap';
+    src: url('./fonts/Asap-Regular.woff2'), url('./fonts/Asap-Regular.woff');
+    font-style: normal;
+    font-weight: normal;
+}
+@font-face {
+    font-family: 'Asap';
+    src: url('./fonts/Asap-Italic.woff2'), url('./fonts/Asap-Italic.woff');
+    font-style: italic;
+    font-weight: normal;
+}
+@font-face {
+    font-family: 'Asap';
+    src: url('./fonts/Asap-Bold.woff2'), url('./fonts/Asap-Bold.woff');
+    font-style: normal;
+    font-weight: bold;
+}
+@font-face {
+    font-family: 'Asap';
+    src: url('./fonts/Asap-BoldItalic.woff2'),
+        url('./fonts/Asap-BoldItalic.woff');
+    font-style: italic;
+    font-weight: bold;
+}
+
+@font-face {
+    font-family: 'Montserrat';
+    src: url('./fonts/Montserrat-Regular.woff2'),
+        url('./fonts/Montserrat-Regular.woff');
+    font-style: normal;
+    font-weight: normal;
+}
+@font-face {
+    font-family: 'Montserrat';
+    src: url('./fonts/Montserrat-Italic.woff2'),
+        url('./fonts/Montserrat-Italic.woff');
+    font-style: italic;
+    font-weight: normal;
+}
+@font-face {
+    font-family: 'Montserrat';
+    src: url('./fonts/Montserrat-Bold.woff2'),
+        url('./fonts/Montserrat-Bold.woff');
+    font-style: normal;
+    font-weight: bold;
+}
+@font-face {
+    font-family: 'Montserrat';
+    src: url('./fonts/Montserrat-BoldItalic.woff2'),
+        url('./fonts/Montserrat-BoldItalic.woff');
+    font-style: italic;
+    font-weight: bold;
+}
+
+:root {
+    --main-font: 'Montserrat';
+    --secondary-font: 'Asap';
+}

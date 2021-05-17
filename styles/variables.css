@@ -1,0 +1,16 @@
+:root {
+    /* color variables */
+    --black: #090809;
+    --blue: #496a81;
+    --green: #9ebc9e;
+    --orage: #e26d5c;
+    --purple: #be3e82;
+    --gray: #eaeaea;
+
+    /* font variables*/
+
+    --ratio: 1.333;
+    --normal: 14px;
+    --medium: calc(var(--normal) * var(--ratio));
+    --big: calc(var(--normal) * 2 * var(--ratio));
+}
