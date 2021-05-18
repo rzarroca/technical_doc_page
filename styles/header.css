@@ -1,0 +1,67 @@
+header {
+    padding: 5px;
+    top: 0;
+    position: sticky;
+    background-color: var(--blue);
+    color: var(--black);
+}
+.fixed {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.fixed > figure {
+    margin: 0px;
+    width: 40px;
+}
+
+.fixed-name {
+    font-family: var(--secondary-font);
+    text-transform: uppercase;
+    font-size: var(--medium);
+}
+
+#fixedmenu {
+    flex-grow: 1;
+}
+
+#fixedmenu > ul {
+    padding: 0;
+
+    display: flex;
+    justify-content: space-around;
+    list-style-type: none;
+}
+
+#fixedmenu a {
+    color: var(--black);
+    text-transform: capitalize;
+    text-shadow: 1px 1px 8px var(--gray);
+}
+
+#fixedmenu a:hover {
+    font-weight: bold;
+    text-shadow: 5px 5px 5px var(--green);
+}
+
+.form {
+    font-family: var(--secondary-font);
+    font-size: var(--medium);
+    text-transform: capitalize;
+}
+
+.form label {
+    margin: 0px auto;
+    text-align: center;
+}
+
+.form label h1 {
+    margin: 5px auto;
+}
+
+#search {
+    width: 50%;
+    margin-left: 20vw;
+    margin-right: 5px;
+}
