@@ -4,6 +4,7 @@ header {
     position: sticky;
     background-color: var(--blue);
     color: var(--black);
+    box-shadow: 0 0 5px var(--black);
 }
 .fixed {
     display: flex;

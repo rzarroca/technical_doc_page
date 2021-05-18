@@ -1,7 +1,8 @@
-@import './buttons.css';
 @import './variables.css';
 @import './fonts.css';
 @import './header.css';
+@import './buttons.css';
+@import './navbar.css';
 
 body {
     font-family: var(--main-font);
@@ -10,4 +11,23 @@ body {
     margin: 0;
     background-color: var(--gray);
     box-sizing: border-box;
+}
+
+h1,
+h2 {
+    font-family: var(--secondary-font);
+    text-transform: capitalize;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: 0.15fr 0.85fr;
+    grid-template-rows: auto auto;
+    grid-template-areas:
+        'navBar main'
+        'footer footer';
+}
+
+footer {
+    grid-area: footer;
 }

@@ -1,0 +1,25 @@
+#navbar {
+    grid-area: navBar;
+    box-shadow: 0 0 10px #bdbaba;
+    padding-left: 5px;
+}
+
+#navbar > ol {
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    justify-content: space-around;
+    list-style-type: none;
+}
+
+#navbar a {
+    color: var(--black);
+    text-transform: capitalize;
+}
+
+#navbar a:hover {
+    font-weight: bold;
+    color: var(--blue);
+    text-shadow: 5px 5px 10px var(--green);
+}
