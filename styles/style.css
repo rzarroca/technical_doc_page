@@ -1,5 +1,6 @@
 @import '/styles/variables.css';
 @import '/styles/fonts.css';
+@import './buttons.css';
 
 body {
     font-family: var(--main-font);
